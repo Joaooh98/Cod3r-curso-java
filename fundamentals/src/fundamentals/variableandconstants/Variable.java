@@ -1,4 +1,4 @@
-package variableandconstants;
+package fundamentals.variableandconstants;
 
 public class Variable {
     public static void main(String[] args) {

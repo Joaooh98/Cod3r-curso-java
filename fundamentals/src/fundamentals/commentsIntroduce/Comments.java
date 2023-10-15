@@ -1,4 +1,4 @@
-package commentsIntroduce;
+package fundamentals.commentsIntroduce;
 
 public class Comments {
     public static void main(String[] args) {
