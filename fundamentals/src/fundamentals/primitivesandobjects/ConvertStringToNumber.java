@@ -7,13 +7,16 @@ public class ConvertStringToNumber {
         String valueOne = JOptionPane.showInputDialog("Digite um numero");
         String valueTwo = JOptionPane.showInputDialog("Digite um numero");
 
-        System.out.println(valueOne+valueTwo+"  valor em String");
+        JOptionPane.showMessageDialog(null,valueOne+valueTwo+"  valor em String concat","result String", JOptionPane.INFORMATION_MESSAGE );
+
         double numberOne =Double.parseDouble(valueOne);
         double numberTwo =Double.parseDouble(valueTwo);
 
         double sum =  numberOne+numberTwo;
-        System.out.println(sum);
-        System.out.println(sum/2);
+
+        JOptionPane.showMessageDialog(null, sum, "result sum", JOptionPane.INFORMATION_MESSAGE);
+        JOptionPane.showMessageDialog(null, sum/2, "Split result", JOptionPane.INFORMATION_MESSAGE);
+
 
     }
 }
