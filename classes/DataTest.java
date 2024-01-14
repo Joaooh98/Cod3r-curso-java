@@ -1,16 +1,17 @@
 package classes;
 
 import java.util.Scanner;
-
+@SuppressWarnings("all")
 public class DataTest {
     public static void main(String[] args) {
-        Data data = new Data();
-        Scanner scanner = new Scanner(System.in);
+        Data data = new Data(01,01, 2023);
+        Data dateStandard = new Data();
 
-        data.ano = scanner.nextLine();
-        data.dia = scanner.nextLine();
-        data.mes = scanner.nextLine();
+        String withFormat = data.withFormat();
+        System.out.println(withFormat);
+        System.out.println(data.withFormat());
+        data.showDateFormat();
 
-        System.out.println(data);
+        dateStandard.showDateFormat();
     }
 }
