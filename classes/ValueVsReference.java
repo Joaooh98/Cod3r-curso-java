@@ -3,7 +3,7 @@ package classes;
 public class ValueVsReference {
     public static void main(String[] args) {
         double a = 2;
-        double b = a; // atribuicao por valor (assignment by value)
+        double b = a; 
         System.out.println(a + " = a and b=: " + b);
 
         a++;
