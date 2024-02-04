@@ -13,8 +13,8 @@ public class ValueVsReference {
         Data d1 = new Data(1, 6, 2022);
         Data d2 = d1;
 
-        d1.dia = 31;
-        d2.mes = 12;
+        d1.day = 31;
+        d2.month = 12;
 
         d1.showDateFormat();
         d2.showDateFormat();
@@ -33,9 +33,9 @@ public class ValueVsReference {
     }
 
     private static void returnToDefaultValue(Data d1) {
-        d1.dia = 1;
-        d1.mes = 1;
-        d1.ano = 19970;
+        d1.day = 1;
+        d1.month = 1;
+        d1.year = 19970;
     }
 
     static void changePrimitiveTypeValue(int c) {
