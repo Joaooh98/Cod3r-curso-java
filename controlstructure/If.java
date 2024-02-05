@@ -6,12 +6,12 @@ public class If {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        System.out.println("Informe a media: ");
-        double media = input.nextDouble();
+        System.out.println("Informe a average: ");
+        double average = input.nextDouble();
 
-        boolean approved = media >= 7.0;
-        boolean recovery = media < 4.5 && media >= 0;
-        boolean disapproved = media < 4.5 && media >= 0;
+        boolean approved = average >= 7.0;
+        boolean recovery = average < 4.5 && average >= 0;
+        boolean disapproved = average < 4.5 && average >= 0;
 
         if (approved) {
             System.out.println(" APROVADO ");

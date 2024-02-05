@@ -18,6 +18,6 @@ public class ProductTest {
         
         double shoppingCart = (priceFinalP1 + priceFinalP2)/2;
 
-        System.out.printf("media do carrinho = R$%.2f.", shoppingCart);
+        System.out.printf("average do carrinho = R$%.2f.", shoppingCart);
     }
 }

@@ -16,8 +16,8 @@ public class Relational {
         double nota = 9.9;
 
         boolean goodBehavior = false;
-        boolean passedTroughMedia = nota >= 7;
-        boolean haveDiscount = goodBehavior && passedTroughMedia;
+        boolean passedTroughaverage = nota >= 7;
+        boolean haveDiscount = goodBehavior && passedTroughaverage;
 
         System.out.println("possui disconto?" + haveDiscount);
         System.out.println("Do you have a discount?" + haveDiscount);

@@ -21,7 +21,7 @@ public class ChallengeWhile {
             }
             double average = total / noteQuantity;
 
-            System.out.println("media ="+average);
+            System.out.println("average ="+average);
         }
 
         input.close();

@@ -4,34 +4,34 @@ import java.util.Arrays;
 
 public class ForeachChallenge {
     public static void main(String[] args) {
-        double[] notasAlunoA = new double[4];
+        double[] studentNotes = new double[4];
 
-        System.out.println(Arrays.toString(notasAlunoA));
+        System.out.println(Arrays.toString(studentNotes));
 
-        notasAlunoA[0] = 7.9;
-        notasAlunoA[1] = 8;
-        notasAlunoA[2] = 6.9;
-        notasAlunoA[3] = 9.7;
+        studentNotes[0] = 7.9;
+        studentNotes[1] = 8;
+        studentNotes[2] = 6.9;
+        studentNotes[3] = 9.7;
 
-        System.out.println(Arrays.toString(notasAlunoA));
-        System.out.println(notasAlunoA[0]); // primeiro elemento
-        System.out.println(notasAlunoA[3]); // ultimo elemento
-        // System.out.println(notasAlunoA[4]); // erro
+        System.out.println(Arrays.toString(studentNotes));
+        System.out.println(studentNotes[0]); // first element
+        System.out.println(studentNotes[3]); // last elemento
+        // System.out.println(studentNotes[4]); // error
 
-        double totalAlunoA = 0;
-        for (double d : notasAlunoA) {
-            totalAlunoA += d;
+        double totalStudentA = 0;
+        for (double d : studentNotes) {
+            totalStudentA += d;
         }
 
-        System.out.println(totalAlunoA / notasAlunoA.length);
+        System.out.println(totalStudentA / studentNotes.length);
 
-        final double notaArmazenada = 5.9;
-        double[] notasAlunoB = { 6.9, 8.9, notaArmazenada, 10 };
+        final double storedNote = 5.9;
+        double[] studentNoteB = { 6.9, 8.9, storedNote, 10 };
 
-        double totalAlunoB = 0;
-        for (double d : notasAlunoB) {
-            totalAlunoB +=d;
+        double totalStudentB = 0;
+        for (double d : studentNoteB) {
+            totalStudentB +=d;
         }
-        System.out.println(totalAlunoB / notasAlunoB.length);
+        System.out.println(totalStudentB / studentNoteB.length);
     }
 }
