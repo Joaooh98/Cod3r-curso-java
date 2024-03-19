@@ -2,7 +2,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class StackExample<T> {
+public class CStackExample<T> {
     private List<T> stack = new ArrayList<>();
 
     public void push(T item) {
@@ -28,7 +28,7 @@ public class StackExample<T> {
     }
 
     public static void main(String[] args) {
-        StackExample<String> stack = new StackExample<>();
+        CStackExample<String> stack = new CStackExample<>();
         stack.push("First");
         stack.push("Second");
         stack.push("Third");

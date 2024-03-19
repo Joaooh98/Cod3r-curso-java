@@ -2,7 +2,7 @@ import java.util.ArrayDeque;
 import java.util.Deque;
 
 @SuppressWarnings("all")
-public class StackC {
+public class CStackC {
     public static void main(String[] args) {
         Deque<String> books = new ArrayDeque<>();
 
