@@ -2,35 +2,33 @@ package poo.onetoone.bidirectional;
 
 public class Car {
 
-    Motor motor;
-
-    
+    public Motor motor;
 
     public Car() {
         this.motor = new Motor(this);
     }
 
-    void speedUp() {
+    public void speedUp() {
         if (motor.injectionFactor < 2.5) {
             motor.injectionFactor += 0.4;
         }
     }
 
-    void brake() {
+    public void brake() {
         if (motor.injectionFactor > 0.5) {
             motor.injectionFactor -= 0.4;
         }
     }
 
-    void off() {
+    public void off() {
         motor.connected = false;
     }
 
-    void toConnect() {
+    public void toConnect() {
         motor.connected = true;
     }
 
-    boolean isConnected() {
+    public boolean isConnected() {
         return motor.connected;
     }
 }

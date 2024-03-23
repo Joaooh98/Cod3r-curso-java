@@ -10,7 +10,7 @@ public class Motor {
         this.car = car;
     }
 
-    int spins(){
+    public int spins(){
         if (!connected) {
             return 0;
         }

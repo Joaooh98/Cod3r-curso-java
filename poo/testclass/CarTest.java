@@ -1,4 +1,6 @@
-package poo.onetoone.bidirectional;
+package poo.testclass;
+
+import poo.onetoone.bidirectional.Car;
 
 public class CarTest {
     public static void main(String[] args) {
