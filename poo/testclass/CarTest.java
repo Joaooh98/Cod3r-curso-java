@@ -2,6 +2,7 @@ package poo.testclass;
 
 import poo.onetoone.bidirectional.Car;
 
+@SuppressWarnings("all")
 public class CarTest {
     public static void main(String[] args) {
         Car carOne = new Car();
