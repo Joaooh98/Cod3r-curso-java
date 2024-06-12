@@ -1,6 +1,6 @@
 package poo.testclass;
 
-import poo.onetoone.bidirectional.Car;
+import poo.onetoone.Car;
 
 @SuppressWarnings("all")
 public class CarTest {

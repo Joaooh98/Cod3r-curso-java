@@ -1,4 +1,4 @@
-package poo.onetoone.bidirectional;
+package poo.onetoone;
 
 public class Car {
 
