@@ -1,7 +1,7 @@
-package poo.testclass;
+package poo.composicao.testclass;
 
-import poo.onetomany.Item;
-import poo.onetomany.Purchase;
+import poo.composicao.onetomany.Item;
+import poo.composicao.onetomany.Purchase;
 
 public class PuschaseTest {
     public static void main(String[] args) {

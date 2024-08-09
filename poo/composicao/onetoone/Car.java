@@ -1,4 +1,4 @@
-package poo.onetoone;
+package poo.composicao.onetoone;
 
 public class Car {
 

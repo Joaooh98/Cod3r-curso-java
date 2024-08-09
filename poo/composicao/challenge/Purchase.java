@@ -1,4 +1,4 @@
-package poo.challenge;
+package poo.composicao.challenge;
 
 import java.util.List;
 

@@ -1,6 +1,6 @@
-package poo.testclass;
+package poo.composicao.testclass;
 
-import poo.onetoone.Car;
+import poo.composicao.onetoone.Car;
 
 @SuppressWarnings("all")
 public class CarTest {

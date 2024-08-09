@@ -1,4 +1,4 @@
-package poo.onetomany;
+package poo.composicao.onetomany;
 
 import java.util.ArrayList;
 import java.util.List;

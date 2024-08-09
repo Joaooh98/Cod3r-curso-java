@@ -1,4 +1,4 @@
-package poo.onetomany;
+package poo.composicao.onetomany;
 @SuppressWarnings("all")
 public class Item {
 

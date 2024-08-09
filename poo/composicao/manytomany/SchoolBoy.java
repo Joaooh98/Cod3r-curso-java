@@ -1,4 +1,4 @@
-package poo.manytomany;
+package poo.composicao.manytomany;
 
 import java.util.ArrayList;
 import java.util.List;
