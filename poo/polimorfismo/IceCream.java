@@ -1,21 +1,9 @@
 package poo.polimorfismo;
 
-public class IceCream {
+public class IceCream extends Food{
     
-    private double weight;
-
     public IceCream(double weight) {
-        this.weight = weight;
-    }
-
-    public double getWeight() {
-        return weight;
-    }
-
-    public void setWeight(double weight) {
-        if (weight >= 0) {
-            this.weight = weight;
-        }
+        super(weight);
     }
 
 }

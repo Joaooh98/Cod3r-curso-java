@@ -1,20 +1,9 @@
 package poo.polimorfismo;
 
-public class Rise {
-
-    private double weight;
+public class Rise extends Food{
 
     public Rise(double weight) {
-        this.weight = weight;
+        super(weight);
     }
 
-    public double getWeight() {
-        return weight;
-    }
-
-    public void setWeight(double weight) {
-        if (weight >= 0) {
-            this.weight = weight;
-        }
-    }
 }
