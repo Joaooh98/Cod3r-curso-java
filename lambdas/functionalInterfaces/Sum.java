@@ -1,4 +1,4 @@
-package lambdas.chanllenge;
+package lambdas.functionalInterfaces;
 
 public class Sum implements ICalc{
 

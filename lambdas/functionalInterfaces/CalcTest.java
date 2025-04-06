@@ -1,4 +1,5 @@
-package lambdas.chanllenge;
+package lambdas.functionalInterfaces;
+
 
 public class CalcTest {
     public static void main(String[] args) {

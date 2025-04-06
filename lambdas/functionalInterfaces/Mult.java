@@ -1,4 +1,5 @@
-package lambdas.chanllenge;
+package lambdas.functionalInterfaces;
+
 
 public class Mult implements ICalc{
 
