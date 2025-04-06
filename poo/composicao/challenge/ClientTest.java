@@ -3,7 +3,7 @@ package poo.composicao.challenge;
 public class ClientTest {
     public static void main(String[] args) {
         var client = new Client("Joao");
-
+        System.out.println(client);
         var purchase = new Purchase();
         purchase.addItem(new Product("notebook", 1000.00), 1);
         purchase.addItem(new Product("monitor", 160.00), 1);
