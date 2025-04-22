@@ -1,6 +1,6 @@
 package lambdas.predicate;
 
-public class product {
+public class Product {
     
     String name;
 
@@ -8,7 +8,7 @@ public class product {
 
     double descont;
 
-    public product(String name, double price, double descont) {
+    public Product(String name, double price, double descont) {
         this.name = name;
         this.price = price;
         this.descont = descont;
